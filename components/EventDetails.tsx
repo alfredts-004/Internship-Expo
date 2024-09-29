@@ -16,7 +16,7 @@ const EventDetails: React.FC = () => {
         <span className="text-purple"> Details</span>
       </h1>
 
-      <div className="max-w-5xl mx-auto px-8">
+      <div className="max-w-5xl mx-auto px-2 md:px-4">
         <HoverEffect items={events} />
       </div>
     </div>
@@ -25,13 +25,13 @@ const EventDetails: React.FC = () => {
 
 export const events = [
   {
-    title: "Online Resume Building Workshop",
-    description: "Date: April 10, 2024\nTime: 2:00 PM - 4:00 PM\nPlatform: Zoom",
+    title: "Resume Building Workshop",
+    description: "Date: April 10, 2024 \n\nTime: 2:00 PM - 4:00 PM\nPlatform: Zoom",
     icon: <IconClipboardCopy className="h-6 w-6 text-neutral-500" />,
   },
   {
     title: "Main Event Date",
-    description: "Date: May 15, 2024\nTime: 10:00 AM - 4:00 PM\nLocation: Fr. Conceicao Rodrigues College of Engineering",
+    description: "Date: May 15, 2024\nTime: 10:00 AM - 4:00 PM\nLocation: FRCRCE ",
     icon: <IconCalendarEvent className="h-6 w-6 text-neutral-500" />,
   },
   {

@@ -52,7 +52,7 @@ export function Opportunity() {
                             <motion.div
                                 layoutId={`card-${active.title}-${id}`}
                                 ref={ref}
-                                className="md:w-[600px] w-[400px] max-w-[90%] h-auto max-h-[90%] sm:max-h-[80%] flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl "
+                                className="md:w-[600px] w-[300px] max-w-[90%] h-auto max-h-[90%] sm:max-h-[80%] flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl "
                             >
                                 <div className="flex items-start gap-4 p-4">
                                     <motion.div layoutId={`image-${active.title}-${id}`}>
